@@ -1,0 +1,6 @@
+[submodule "alacritty"]
+	path = alacritty
+	url = git@github.com:roybcr/alacritty.git
+[submodule "lvim"]
+	path = lvim
+	url = git@github.com:roybcr/lvim.git
