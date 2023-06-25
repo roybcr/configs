@@ -1,0 +1,6 @@
+[user]
+	name = Roy Bachar
+	email = roybcx@proton.me
+	signingkey = 267921C92984E2D2
+[commit]
+	gpgsign = true

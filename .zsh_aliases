@@ -1,0 +1,43 @@
+# Commands
+alias cc="clear"
+alias /q="exit"
+alias gopls="~/go/bin/gopls"
+alias say="echo"
+alias open="xdg-open $1"
+alias yank="xclip -selection clipboard $1"
+
+# Git
+alias g="git"
+alias gis="git status"
+alias gid="git diff"
+alias gic="git commit -m"
+alias gip="git pull origin"
+alias gif="git fetch"
+
+# Executables
+# alias live-server="~/.yarn/bin/live-server $1" # Start a live-server in the current directory
+
+# Navigation
+alias dev="cd ~/Documents/Dev"
+alias docs="cd ~/Documents"
+alias neo="cd ~/.config/nvim"
+alias tmps="cd ~/Documents/tmp/"
+alias rust="cd ~/Documents/Dev/Rust"
+alias con="cd ~/.config"
+alias work="cd ~/Documents/Dev/Work"
+alias lib="cd ~/Library"
+alias dow="cd ~/Downloads/"
+alias dsgn="cd ~/Documents/Design/"
+
+# Package Manager
+alias yayup="yay -Syyu"
+
+# Scripts
+alias createfile="~/Library/Scripts/newfile.sh"
+alias back="~/Library/Scripts/back.sh"
+alias d2b="~/Documents/Dev/InterviewCake/11.\ Bit\ Manipulation/dec_to_bin/target/release/d2b"
+alias lunacritty="~/Library/Scripts/lunacritty.sh"
+alias sysclean="~/Library/Scripts/sysclean.sh"
+alias rfmt="cp ~/Templates/rustfmt.toml ./"
+alias nest="~/.nvm/versions/node/v16.17.0/bin/nest"
+alias econf="cp ~/Templates/EditorConfig ./.editorconfig"
