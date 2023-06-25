@@ -1,0 +1,9 @@
+{
+  "Console Dir Statement": {
+    "prefix": "cld",
+    "body": [
+      "console.dir({ $0:argument }, { depth: null });"
+    ],
+    "description": "Print Nested Objects to The Console"
+  }
+}
